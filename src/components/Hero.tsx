@@ -24,15 +24,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <motion.div 
-            className="hero-badge glass-panel"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2, duration: 0.4 }}
-          >
-            <span>✨ Available for new opportunities</span>
-          </motion.div>
-          
+
           <motion.h1 
             className="hero-title"
             initial={{ opacity: 0, y: 20 }}
