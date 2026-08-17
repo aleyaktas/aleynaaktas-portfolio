@@ -114,7 +114,7 @@ const projects: ProjectData[] = [
   // Elatsan Projects
   {
     title: "Eagle Sim",
-    tech: ["React Native", "Expo", "TypeScript", "Redux"],
+    tech: ["React Native", "Expo", "TypeScript", "Redux", "Node.js", "PostgreSQL"],
     desc: "A scalable cross-platform mobile application for shooting training simulations. Optimized real-time data processing and UI/UX for high performance across devices.",
     images: [eagleSimMain, eagleSim1, eagleSim2, eagleSim3, eagleSim4, eagleSim5, eagleSim6],
     category: 'elatsan',
@@ -123,7 +123,7 @@ const projects: ProjectData[] = [
   },
   {
     title: "Online Devriye",
-    tech: ["React", "TypeScript", "Node.js"],
+    tech: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL"],
     desc: "An online patrol monitoring application built as an end-to-end dashboard and internal tool for real-time tracking and management of patrol operations.",
     images: [onlineDevriye1, onlineDevriye2, onlineDevriye3, onlineDevriye4, onlineDevriye5, onlineDevriye6, onlineDevriye7, onlineDevriye8],
     category: 'elatsan',
@@ -132,7 +132,7 @@ const projects: ProjectData[] = [
   },
   {
     title: "Hukuk Takip",
-    tech: ["React", "TypeScript", "Node.js"],
+    tech: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL"],
     desc: "A legal case tracking application built as a comprehensive dashboard for managing and monitoring legal cases with intuitive interface design.",
     images: [hukuk1, hukuk2, hukuk3, hukuk4, hukuk5, hukuk6, hukuk7, hukuk8],
     category: 'elatsan',
@@ -153,7 +153,7 @@ const projects: ProjectData[] = [
   },
   {
     title: "YDS Pro",
-    tech: ["React Native", "Expo", "Node.js", "TypeScript"],
+    tech: ["React Native", "Expo", "Node.js", "TypeScript", "PostgreSQL"],
     desc: "A comprehensive academic English exam preparation app covering YDS, YÖKDİL, TOEFL, and IELTS with 600+ critical vocabulary words, grammar modules, and timed mock exams. 4.8 rating with 5K+ downloads.",
     images: [ydspro0, ydspro1, ydspro2, ydspro3, ydspro4, ydspro5, ydspro6, ydspro7],
     category: 'personal',
@@ -177,7 +177,7 @@ const projects: ProjectData[] = [
   },
   {
     title: "Baby Tracker",
-    tech: ["React Native", "Expo", "TypeScript"],
+    tech: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL"],
     desc: "A comprehensive baby tracking application for parents to monitor feeding, sleeping, diaper changes, and growth milestones with intuitive charts and reminders.",
     images: [baby1, baby2, baby3, baby4, baby5, baby6],
     category: 'personal',
@@ -188,8 +188,8 @@ const projects: ProjectData[] = [
     platform: "Mobile App"
   },
   {
-    title: "Cycelle",
-    tech: ["React Native", "Expo", "TypeScript", "Redux"],
+    title: "Cycella",
+    tech: ["React Native", "Expo", "TypeScript", "Redux", "Node.js", "PostgreSQL"],
     desc: "A modern menstrual cycle and ovulation tracking application offering insightful daily predictions, symptom logging, and body cycle analytics.",
     images: [cycella1, cycella2, cycella3, cycella4, cycella5, cycella6, cycella7, cycella8],
     category: 'personal',
@@ -201,7 +201,7 @@ const projects: ProjectData[] = [
   // Freelance Projects
   {
     title: "Kelibu",
-    tech: ["React Native", "Node.js", "TypeScript", "Redux"],
+    tech: ["React Native", "Node.js", "TypeScript", "Redux", "PostgreSQL"],
     desc: "An interactive language learning application with five game modes, dynamic learning content, and progress-based experiences for engaging vocabulary practice.",
     images: [kelibu1, kelibu2, kelibu3],
     category: 'freelance',
@@ -213,7 +213,7 @@ const projects: ProjectData[] = [
   },
   {
     title: "Self English",
-    tech: ["React Native", "Node.js", "TypeScript", "Redux"],
+    tech: ["React Native", "Expo", "Redux", "TypeScript", "Node.js", "PostgreSQL"],
     desc: "An AI-powered English learning platform featuring speech recognition, AI-based assessments, interactive learning modules, and user progress tracking.",
     images: [selfeng1, selfeng2, selfeng3, selfeng4, selfeng5, selfeng6, selfeng7, selfeng8],
     category: 'freelance',
