@@ -34,6 +34,9 @@ import hukuk8 from '../assets/hukuk8.jpg';
 import kelibu1 from '../assets/kelibu1.PNG';
 import kelibu2 from '../assets/kelibu2.PNG';
 import kelibu3 from '../assets/kelibu3.PNG';
+import kelibu4 from '../assets/kelibu4.PNG';
+import kelibu5 from '../assets/kelibu5.PNG';
+import kelibu6 from '../assets/kelibu6.PNG';
 
 import selfeng1 from '../assets/selfeng1.jpeg';
 import selfeng2 from '../assets/selfeng2.jpeg';
@@ -164,7 +167,7 @@ const projects: ProjectData[] = [
     title: "Kelibu",
     tech: ["React Native", "Node.js", "TypeScript", "Redux", "PostgreSQL"],
     desc: "An interactive language learning application with five game modes, dynamic learning content, and progress-based experiences for engaging vocabulary practice.",
-    images: [kelibu1, kelibu2, kelibu3],
+    images: [kelibu1, kelibu2, kelibu3, kelibu4, kelibu5, kelibu6],
     category: 'freelance',
     links: {
       playStore: "https://play.google.com/store/apps/details?id=com.phdakademi.kelibu&hl=tr",
