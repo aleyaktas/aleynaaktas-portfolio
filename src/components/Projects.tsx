@@ -51,6 +51,7 @@ import gemscope3 from '../assets/gemscope-3.jpg';
 import gemscope4 from '../assets/gemscope-4.jpg';
 import gemscope5 from '../assets/gemscope-5.jpg';
 
+import ydspro0 from '../assets/ydspro.PNG';
 import ydspro1 from '../assets/ydspro1.PNG';
 import ydspro2 from '../assets/ydspro2.PNG';
 import ydspro3 from '../assets/ydspro3.PNG';
@@ -154,7 +155,7 @@ const projects: ProjectData[] = [
     title: "YDS Pro",
     tech: ["React Native", "Expo", "Node.js", "TypeScript"],
     desc: "A comprehensive academic English exam preparation app covering YDS, YÖKDİL, TOEFL, and IELTS with 600+ critical vocabulary words, grammar modules, and timed mock exams. 4.8 rating with 5K+ downloads.",
-    images: [ydspro1, ydspro2, ydspro3, ydspro4, ydspro5, ydspro6, ydspro7],
+    images: [ydspro0, ydspro1, ydspro2, ydspro3, ydspro4, ydspro5, ydspro6, ydspro7],
     category: 'personal',
     links: {
       playStore: "https://play.google.com/store/apps/details?id=com.opiaclab.kelimeler&hl=tr",
