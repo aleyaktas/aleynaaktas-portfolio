@@ -254,6 +254,23 @@
   white-space: nowrap;
 }
 
+.project-stats-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.65rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, rgba(234, 179, 8, 0.18), rgba(249, 115, 22, 0.18));
+  color: #fde047;
+  border: 1px solid rgba(250, 204, 21, 0.4);
+  box-shadow: 0 0 12px rgba(234, 179, 8, 0.2);
+  white-space: nowrap;
+}
+
 /* Store Links */
 .project-links {
   display: flex;

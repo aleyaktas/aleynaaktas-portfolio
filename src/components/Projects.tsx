@@ -111,6 +111,7 @@ interface ProjectData {
     appStore?: string;
   };
   platform: string;
+  stats?: string;
 }
 
 const projects: ProjectData[] = [
@@ -128,14 +129,15 @@ const projects: ProjectData[] = [
   {
     title: "YDS Pro",
     tech: ["React Native", "Expo", "Node.js", "TypeScript", "PostgreSQL"],
-    desc: "A comprehensive academic English exam preparation app covering YDS, YÖKDİL, TOEFL, and IELTS with 600+ critical vocabulary words, grammar modules, and timed mock exams. 4.8 rating with 5K+ downloads.",
+    desc: "A comprehensive academic English exam preparation app covering YDS, YÖKDİL, TOEFL, and IELTS with 600+ critical vocabulary words, grammar modules, and timed mock exams. Achieved 10K+ downloads with a 4.8 rating.",
     images: [ydspro0, ydspro1, ydspro2, ydspro3, ydspro4, ydspro5, ydspro6, ydspro7],
     category: 'personal',
     links: {
       playStore: "https://play.google.com/store/apps/details?id=com.opiaclab.kelimeler&hl=tr",
       appStore: "https://apps.apple.com/tr/app/yds-hocam-yds-ve-y%C3%B6kdi-l/id6664053285?l=tr"
     },
-    platform: "Mobile App"
+    platform: "Mobile App",
+    stats: "🔥 10K+ Downloads • 4.8 ★"
   },
   // 3. Puzzle Dreams
   {
@@ -150,7 +152,21 @@ const projects: ProjectData[] = [
     },
     platform: "Mobile App"
   },
-  // 4. GemScope
+  // 4. Kelibu
+  {
+    title: "Kelibu",
+    tech: ["React Native", "Node.js", "TypeScript", "Redux", "PostgreSQL"],
+    desc: "An interactive language learning application with five game modes, dynamic learning content, and progress-based experiences for engaging vocabulary practice. Reached 20K+ downloads across app stores.",
+    images: [kelibu1, kelibu2, kelibu3, kelibu4, kelibu5, kelibu6],
+    category: 'freelance',
+    links: {
+      playStore: "https://play.google.com/store/apps/details?id=com.phdakademi.kelibu&hl=tr",
+      appStore: "https://apps.apple.com/sa/app/kelibu-yds-y%C3%B6kdi-l-tipdi-l-ydt/id6484268631"
+    },
+    platform: "Mobile App",
+    stats: "🚀 20K+ Downloads"
+  },
+  // 5. GemScope
   {
     title: "GemScope",
     tech: ["React Native", "Expo", "Google Gemini API", "TypeScript"],
@@ -159,19 +175,6 @@ const projects: ProjectData[] = [
     category: 'personal',
     links: {
       playStore: "https://play.google.com/store/apps/details?id=com.opiaclab.cardanalysis&hl=tr"
-    },
-    platform: "Mobile App"
-  },
-  // 5. Kelibu
-  {
-    title: "Kelibu",
-    tech: ["React Native", "Node.js", "TypeScript", "Redux", "PostgreSQL"],
-    desc: "An interactive language learning application with five game modes, dynamic learning content, and progress-based experiences for engaging vocabulary practice.",
-    images: [kelibu1, kelibu2, kelibu3, kelibu4, kelibu5, kelibu6],
-    category: 'freelance',
-    links: {
-      playStore: "https://play.google.com/store/apps/details?id=com.phdakademi.kelibu&hl=tr",
-      appStore: "https://apps.apple.com/sa/app/kelibu-yds-y%C3%B6kdi-l-tipdi-l-ydt/id6484268631"
     },
     platform: "Mobile App"
   },
@@ -371,6 +374,9 @@ const Projects = () => {
                     <div className="project-title-row">
                       <h3>{project.title}</h3>
                       <span className="project-platform-badge">{project.platform}</span>
+                      {project.stats && (
+                        <span className="project-stats-badge">{project.stats}</span>
+                      )}
                     </div>
                     <div className="project-links">
                       {project.links.playStore && (
