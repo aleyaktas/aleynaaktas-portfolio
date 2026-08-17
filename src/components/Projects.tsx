@@ -111,7 +111,7 @@ interface ProjectData {
 }
 
 const projects: ProjectData[] = [
-  // Elatsan Projects
+  // 1. Eagle Sim
   {
     title: "Eagle Sim",
     tech: ["React Native", "Expo", "TypeScript", "Redux", "Node.js", "PostgreSQL"],
@@ -121,36 +121,7 @@ const projects: ProjectData[] = [
     links: {},
     platform: "Mobile App"
   },
-  {
-    title: "Online Devriye",
-    tech: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL"],
-    desc: "An online patrol monitoring application built as an end-to-end dashboard and internal tool for real-time tracking and management of patrol operations.",
-    images: [onlineDevriye1, onlineDevriye2, onlineDevriye3, onlineDevriye4, onlineDevriye5, onlineDevriye6, onlineDevriye7, onlineDevriye8],
-    category: 'elatsan',
-    links: {},
-    platform: "Mobile App"
-  },
-  {
-    title: "Hukuk Takip",
-    tech: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL"],
-    desc: "A legal case tracking application built as a comprehensive dashboard for managing and monitoring legal cases with intuitive interface design.",
-    images: [hukuk1, hukuk2, hukuk3, hukuk4, hukuk5, hukuk6, hukuk7, hukuk8],
-    category: 'elatsan',
-    links: {},
-    platform: "Mobile App"
-  },
-  // Personal Projects
-  {
-    title: "GemScope",
-    tech: ["React Native", "Expo", "Google Gemini API", "TypeScript"],
-    desc: "An AI-powered gemstone identification app leveraging Google Gemini API for real-time analysis and detailed information about precious stones.",
-    images: [gemscope1, gemscope2, gemscope3, gemscope4, gemscope5],
-    category: 'personal',
-    links: {
-      playStore: "https://play.google.com/store/apps/details?id=com.opiaclab.cardanalysis&hl=tr"
-    },
-    platform: "Mobile App"
-  },
+  // 2. YDS Pro
   {
     title: "YDS Pro",
     tech: ["React Native", "Expo", "Node.js", "TypeScript", "PostgreSQL"],
@@ -163,6 +134,7 @@ const projects: ProjectData[] = [
     },
     platform: "Mobile App"
   },
+  // 3. Puzzle Dreams
   {
     title: "Puzzle Dreams",
     tech: ["React Native", "Expo", "Firebase", "TypeScript"],
@@ -175,30 +147,19 @@ const projects: ProjectData[] = [
     },
     platform: "Mobile App"
   },
+  // 4. GemScope
   {
-    title: "Baby Tracker",
-    tech: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL"],
-    desc: "A comprehensive baby tracking application for parents to monitor feeding, sleeping, diaper changes, and growth milestones with intuitive charts and reminders.",
-    images: [baby1, baby2, baby3, baby4, baby5, baby6],
+    title: "GemScope",
+    tech: ["React Native", "Expo", "Google Gemini API", "TypeScript"],
+    desc: "An AI-powered gemstone identification app leveraging Google Gemini API for real-time analysis and detailed information about precious stones.",
+    images: [gemscope1, gemscope2, gemscope3, gemscope4, gemscope5],
     category: 'personal',
     links: {
-      playStore: "https://play.google.com/store/apps/details?id=com.opiaclab.babytracker&hl=tr",
-      appStore: "https://apps.apple.com/tr/app/baby-tracker-bebek-geli%C5%9Fimi/id6742326061?l=tr"
+      playStore: "https://play.google.com/store/apps/details?id=com.opiaclab.cardanalysis&hl=tr"
     },
     platform: "Mobile App"
   },
-  {
-    title: "Cycella",
-    tech: ["React Native", "Expo", "TypeScript", "Redux", "Node.js", "PostgreSQL"],
-    desc: "A modern menstrual cycle and ovulation tracking application offering insightful daily predictions, symptom logging, and body cycle analytics.",
-    images: [cycella1, cycella2, cycella3, cycella4, cycella5, cycella6, cycella7, cycella8],
-    category: 'personal',
-    links: {
-      appStore: "https://apps.apple.com/tr/app/cycella-ai-period-ovulation/id6749870635?l=tr"
-    },
-    platform: "Mobile App"
-  },
-  // Freelance Projects
+  // 5. Kelibu
   {
     title: "Kelibu",
     tech: ["React Native", "Node.js", "TypeScript", "Redux", "PostgreSQL"],
@@ -211,6 +172,7 @@ const projects: ProjectData[] = [
     },
     platform: "Mobile App"
   },
+  // 6. Self English
   {
     title: "Self English",
     tech: ["React Native", "Expo", "Redux", "TypeScript", "Node.js", "PostgreSQL"],
@@ -221,6 +183,51 @@ const projects: ProjectData[] = [
       playStore: "https://play.google.com/store/apps/details?id=com.phdakademi.selfenglish",
       appStore: "https://apps.apple.com/pk/app/selfenglish-i-ngilizce-%C3%B6%C4%9Fren/id6738060456"
     },
+    platform: "Mobile App"
+  },
+  // 7. Baby Tracker
+  {
+    title: "Baby Tracker",
+    tech: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL"],
+    desc: "A comprehensive baby tracking application for parents to monitor feeding, sleeping, diaper changes, and growth milestones with intuitive charts and reminders.",
+    images: [baby1, baby2, baby3, baby4, baby5, baby6],
+    category: 'personal',
+    links: {
+      playStore: "https://play.google.com/store/apps/details?id=com.opiaclab.babytracker&hl=tr",
+      appStore: "https://apps.apple.com/tr/app/baby-tracker-bebek-geli%C5%9Fimi/id6742326061?l=tr"
+    },
+    platform: "Mobile App"
+  },
+  // 8. Cycella
+  {
+    title: "Cycella",
+    tech: ["React Native", "Expo", "TypeScript", "Redux", "Node.js", "PostgreSQL"],
+    desc: "A modern menstrual cycle and ovulation tracking application offering insightful daily predictions, symptom logging, and body cycle analytics.",
+    images: [cycella1, cycella2, cycella3, cycella4, cycella5, cycella6, cycella7, cycella8],
+    category: 'personal',
+    links: {
+      appStore: "https://apps.apple.com/tr/app/cycella-ai-period-ovulation/id6749870635?l=tr"
+    },
+    platform: "Mobile App"
+  },
+  // 9. Online Devriye
+  {
+    title: "Online Devriye",
+    tech: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL"],
+    desc: "An online patrol monitoring application built as an end-to-end dashboard and internal tool for real-time tracking and management of patrol operations.",
+    images: [onlineDevriye1, onlineDevriye2, onlineDevriye3, onlineDevriye4, onlineDevriye5, onlineDevriye6, onlineDevriye7, onlineDevriye8],
+    category: 'elatsan',
+    links: {},
+    platform: "Mobile App"
+  },
+  // 10. Hukuk
+  {
+    title: "Hukuk",
+    tech: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL"],
+    desc: "A legal case tracking application built as a comprehensive dashboard for managing and monitoring legal cases with intuitive interface design.",
+    images: [hukuk1, hukuk2, hukuk3, hukuk4, hukuk5, hukuk6, hukuk7, hukuk8],
+    category: 'elatsan',
+    links: {},
     platform: "Mobile App"
   },
 ];
