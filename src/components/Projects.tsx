@@ -128,8 +128,8 @@ const projects: ProjectData[] = [
   // 2. YDS Pro
   {
     title: "YDS Pro",
-    tech: ["React Native", "Expo", "Node.js", "TypeScript", "PostgreSQL"],
-    desc: "A comprehensive academic English exam preparation app covering YDS, YÖKDİL, TOEFL, and IELTS with 600+ critical vocabulary words, grammar modules, and timed mock exams. Achieved 10K+ downloads with a 4.8 rating.",
+    tech: ["React Native", "Expo", "RevenueCat", "Node.js", "TypeScript", "PostgreSQL"],
+    desc: "A comprehensive academic English exam preparation app covering YDS, YÖKDİL, TOEFL, and IELTS with 600+ critical vocabulary words, grammar modules, timed mock exams, and RevenueCat in-app subscriptions. Achieved 10K+ downloads with a 4.8 rating.",
     images: [ydspro0, ydspro1, ydspro2, ydspro3, ydspro4, ydspro5, ydspro6, ydspro7],
     category: 'personal',
     links: {
@@ -142,15 +142,16 @@ const projects: ProjectData[] = [
   // 3. Puzzle Dreams
   {
     title: "Puzzle Dreams",
-    tech: ["React Native", "Expo", "Firebase", "TypeScript"],
-    desc: "A calming 3D puzzle game featuring rotatable environments, pastel-themed visuals, and ASMR-inspired sound design for a stress-free experience. 1K+ downloads.",
+    tech: ["React Native", "Expo", "Firebase", "RevenueCat", "Google AdMob", "TypeScript"],
+    desc: "A calming 3D puzzle game featuring rotatable environments, pastel-themed visuals, and ASMR-inspired sound design integrated with Google AdMob ads and RevenueCat in-app purchases.",
     images: [puzzle1, puzzle2, puzzle3, puzzle4, puzzle5],
     category: 'personal',
     links: {
       playStore: "https://play.google.com/store/apps/details?id=com.opiaclab.miniworldpuzzle&hl=tr",
       appStore: "https://apps.apple.com/tr/app/puzzle-dreams-rahatlat%C4%B1c%C4%B1-3d/id6756208731?l=tr"
     },
-    platform: "Mobile App"
+    platform: "Mobile App",
+    stats: "⭐ 1K+ Downloads"
   },
   // 4. Kelibu
   {
@@ -169,8 +170,8 @@ const projects: ProjectData[] = [
   // 5. GemScope
   {
     title: "GemScope",
-    tech: ["React Native", "Expo", "Google Gemini API", "TypeScript"],
-    desc: "An AI-powered gemstone identification app leveraging Google Gemini API for real-time analysis and detailed information about precious stones.",
+    tech: ["React Native", "Expo", "RevenueCat", "Google Gemini API", "TypeScript"],
+    desc: "An AI-powered gemstone identification app leveraging Google Gemini API for real-time analysis, detailed gemological insights, and RevenueCat in-app purchases.",
     images: [gemscope1, gemscope2, gemscope3, gemscope4, gemscope5],
     category: 'personal',
     links: {
@@ -194,8 +195,8 @@ const projects: ProjectData[] = [
   // 7. Baby Tracker
   {
     title: "Baby Tracker",
-    tech: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL"],
-    desc: "A comprehensive baby tracking application for parents to monitor feeding, sleeping, diaper changes, and growth milestones with intuitive charts and reminders.",
+    tech: ["React Native", "Expo", "RevenueCat", "TypeScript", "Node.js", "PostgreSQL"],
+    desc: "A comprehensive baby tracking application for parents to monitor feeding, sleeping, diaper changes, and growth milestones with RevenueCat subscription integration.",
     images: [baby1, baby2, baby3, baby4, baby5, baby6],
     category: 'personal',
     links: {
