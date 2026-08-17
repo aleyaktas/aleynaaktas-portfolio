@@ -6,7 +6,7 @@ const About = () => {
   const skills = [
     { category: 'Frontend', icon: <Code2 size={24} />, items: ['React', 'React Native', 'Next.js', 'TypeScript', 'JavaScript', 'Redux', 'Storybook'] },
     { category: 'Backend', icon: <Server size={24} />, items: ['Node.js', 'Express', 'Socket.io'] },
-    { category: 'Database', icon: <Database size={24} />, items: ['MongoDB', 'Firebase'] },
+    { category: 'Database', icon: <Database size={24} />, items: ['PostgreSQL', 'MongoDB', 'Firebase'] },
     { category: 'Cloud/DevOps', icon: <Cloud size={24} />, items: ['AWS EC2', 'Expo'] },
   ];
 
